@@ -1,7 +1,7 @@
 
 const Infomations = () => {
   return (
-    <div className="max-w-7xl mx-auto flex justify-around relative -top-10">
+    <div className="max-w-7xl mx-auto flex justify-around relative -top-10" data-aos="fade-up">
       <div className="border w-72">
         <div className="bg-gray-200">
           <h2 className="p-2 text-center font-medium">L'ECOLE</h2>

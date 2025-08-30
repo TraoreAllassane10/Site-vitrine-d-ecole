@@ -4,7 +4,7 @@ import img3 from "../assets/images/photo3.png";
 
 const Actualites = () => {
   return (
-    <div className="max-w-7xl mx-auto flex gap-4 mt-10">
+    <div className="max-w-7xl mx-auto flex gap-4 mt-10" data-aos="fade-up">
       {/* Text */}
       <div className="flex-1 flex flex-col gap-3">
         <span className="text-[var(--color-red)]">Actualités</span>

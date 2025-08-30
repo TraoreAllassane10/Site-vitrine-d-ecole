@@ -6,7 +6,7 @@ const Presentation = () => {
   return (
     <div className="max-w-7xl mx-auto flex gap-4 mt-10">
       {/* Text */}
-      <div className="flex-1 flex flex-col gap-3">
+      <div data-aos="fade-right" className="flex-1 flex flex-col gap-3">
         <span className="text-[var(--color-red)]">L'établissement</span>
 
         <h2 className="text-3xl font-medium">
@@ -45,7 +45,7 @@ const Presentation = () => {
       </div>
 
       {/* Images */}
-      <div className="flex gap-2 flex-1">
+      <div data-aos="fade-left" className="flex gap-2 flex-1">
         <div>
           <img src={img1} className="shadow h-full" />
         </div>
