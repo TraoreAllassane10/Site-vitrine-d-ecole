@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@plugin "daisyui";
+
+:root {
+    --color-red : #be131f;
+    --color-bleu : #19395b;
+    --color-gray : #5a5555; 
+}
+
+@layer base {
+    .hero {
+        background-image: url("./assets/images/photo1.png");
+        background-size: cover;
+        height: 80vh;
+    }
+
+    .bourse {
+        background-image: url("./assets/images/photo5.png");
+        background-size: cover;
+        height: 30vh;
+    }
+
+    .btn-primary
+    {
+        @apply bg-[var(--color-red)] text-white p-2 rounded hover:bg-red-600 transition;
+    }
+}
